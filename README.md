@@ -1,7 +1,7 @@
 # How to get the start and end date of the selected range in .NET MAUI Calendar
 This repository contains a sample of how to get the start and end date of the selected range in the [Syncfusion .NET MAUI Calendar](https://help.syncfusion.com/maui/calendar/getting-started) control.
 
-Please refer the KB through this link.
+Please refer the KB through this [link](https://www.syncfusion.com/kb/13829/how-to-get-the-start-and-end-date-of-the-selected-range-in-net-maui-calendar-sfcalendar).
 
 ## Syncfusion controls
 
