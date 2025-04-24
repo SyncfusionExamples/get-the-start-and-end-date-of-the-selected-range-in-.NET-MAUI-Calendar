@@ -29,7 +29,11 @@ namespace DateRangeSelection
                     endDate = (DateTime)this.sfCalendar.SelectedDateRange.StartDate;
                 }
 
-                App.Current.MainPage.DisplayAlert("StartDate:" + " " + startDate.ToString("dd/MM/yyyy"), "EndDate:" + " " + endDate.ToString("dd/MM/yyyy"), "OK");
+                var mainPage = App.Current?.Windows.FirstOrDefault()?.Page;
+                if (mainPage != null)
+                {
+                    mainPage.DisplayAlert("StartDate:" + " " + startDate.ToString("dd/MM/yyyy"), "EndDate:" + " " + endDate.ToString("dd/MM/yyyy"), "OK");
+                }
             }
         }
 
